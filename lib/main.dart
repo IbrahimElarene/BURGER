@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'features/card_screen/card_screen.dart';
 import 'features/home_screen/ui/home_screen.dart';
 
 void main() {
@@ -14,7 +15,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomeScreen(),
+      home: CardScreen(),
+      //home: HomeScreen(),
     );
   }
 }
